@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacto - Conexión Vino</title>
+        <link rel = "stylesheet" href = "style.css">
+        <style>@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');</style>
+
+    </head>
+    <body>
+        <header class="caja">
+            <h1 class="logo"><img src="logo.jpg" alt="logo" width="100" height="100"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contactanos</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="contactanos">
+            <h2 id="titulo_contactanos">Envianos un mensaje</h2>
+            <form id="contacto_form">
+                <div class="form_group">
+                    <label for="nombre">Nombre y Apellido</label>
+                    <input type="text" id="nombre" required>
+                </div>
+        
+                <div class="form_group">
+                    <label for="correo">Correo Electrónico</label>
+                    <input type="email" id="correo" required placeholder="email@dominio.com">
+                </div>
+        
+                <div class="form_group">
+                    <label for="telefono">Número de Teléfono</label>
+                    <input type="tel" id="telefono" required placeholder="(XX) XXXX XXXX">
+                </div>
+        
+                <div class="form_group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" required></textarea>
+                </div>
+        
+                <input type="submit" value="Enviar Formulario" class="btn-enviar">
+            </form>
+        </main>
+
+        <footer>
+            <div class="footer_arriba">
+                <h3>CONTACTO</h3>
+            <ul>
+                <li><a href="mailto:conexionvino@gmail.com">Mail</a></li>
+                <li><a href="https://www.instagram.com/conexion.vino">Instagram</a></li>
+                <li>Teléfono: 1133649448</li>
+            </ul>
+            </div>   
+            <div class="footer_abajo">
+                <p>Derechos reservados</p>
+            </div>
+            
+
+        </footer>
+    </body>
+
+
+</html>
